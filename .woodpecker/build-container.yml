@@ -36,7 +36,7 @@ steps:
         from_secret: ci_http_proxy
       https_proxy:
         from_secret: ci_http_proxy
-      platforms: linux/amd64
+      platforms: linux/amd64,linux/arm64
       pull_image: false
       logins:
         - registry: https://index.docker.io/v1/
