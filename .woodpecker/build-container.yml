@@ -10,7 +10,7 @@ steps:
     settings:
 # renovate: datasource=github-releases depName=Kozea/Radicale
       tags:
-        - 3.5.2
+        - 3.5.3
         - latest
       dockerfile: Dockerfile
       dry_run: true
@@ -29,7 +29,7 @@ steps:
     settings:
 # renovate: datasource=github-releases depName=Kozea/Radicale
       tags:
-        - 3.5.2
+        - 3.5.3
         - latest
       dockerfile: Dockerfile
       http_proxy:
