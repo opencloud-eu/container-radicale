@@ -6,14 +6,18 @@
   "customManagers": [
     {
       "customType": "regex",
-      "fileMatch": ["^Dockerfile$"],
+      "managerFilePatterns": [
+        "/^Dockerfile$/"
+      ],
       "matchStrings": [
         "# renovate: datasource=(?<datasource>\\S+) depName=(?<depName>\\S+)\\nARG VERSION=(?<currentValue>.*)"
       ]
     },
     {
       "customType": "regex",
-      "fileMatch": ["^\\.woodpecker/[^/]+\\.yml$"],
+      "managerFilePatterns": [
+        "/^\\.woodpecker/[^/]+\\.yml$/"
+      ],
       "matchStrings": [
         "# renovate: datasource=(?<datasource>\\S+) depName=(?<depName>\\S+)\\n\\s+tags:\\n\\s+- (?<currentValue>.*)"
       ]
