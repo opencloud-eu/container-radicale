@@ -1,6 +1,6 @@
 # This file is intended to be used apart from the containing source code tree.
 
-FROM python:3-alpine@sha256:035ccea13c0c54555c389162d8563eddeac7b28274f7a5e719260c78d0a743da AS builder
+FROM python:3-alpine@sha256:6df47e1f4684bf709160fcf7858fe0b1cc1ebb8bdd6868965f52559bf8d4844c AS builder
 
 # Version of Radicale (e.g. v3)
 # renovate: datasource=github-releases depName=Kozea/Radicale
