@@ -4,7 +4,7 @@ FROM python:3-alpine@sha256:d4e7a02ff532c98a8a8f71aba0b4e8f419faad4a49801e554da6
 
 # Version of Radicale (e.g. v3)
 # renovate: datasource=github-releases depName=Kozea/Radicale
-ARG VERSION=v3.7.0
+ARG VERSION=v3.7.1
 
 # Optional dependencies (e.g. bcrypt or ldap)
 ARG DEPENDENCIES=bcrypt
